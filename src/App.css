@@ -1,0 +1,33 @@
+.game {
+    border: solid 10px #ccc;
+    height: 100vh;
+}
+
+.playground,
+.information {
+    float: left;
+    height: calc(100vh - 20px);
+}
+
+.playground {
+    width: calc(100% - 250px);
+    border-right: solid 1px #ccc;
+    position: relative;
+    background: #eee;
+}
+
+.playground div {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    border-radius: 50%;
+    margin: -50px -50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: opacity .2s;
+}
+
+.information {
+    padding: 0 20px;
+}
